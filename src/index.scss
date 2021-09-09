@@ -17,13 +17,20 @@ div {
 }
 
 aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .colorBox {
-  background-color: red;
   height: 3rem;
   width: 3rem;
+}
+
+button {
+  margin-top: 0.5rem;
 }
 
 ul {
@@ -34,6 +41,6 @@ li {
   display: flex;
 }
 
-p {
-  margin-right: 1rem;
+.hsl {
+  padding-left: 2rem;
 }

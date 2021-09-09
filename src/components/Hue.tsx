@@ -19,6 +19,6 @@ export function Hue() {
       step="1"
       value={hue}
       onChange={handleChangeInput}
-    ></input>
+    />
   )
 }

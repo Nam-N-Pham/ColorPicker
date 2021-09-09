@@ -19,6 +19,6 @@ export function Lightness() {
       step="1"
       value={lightness}
       onChange={handleChangeInput}
-    ></input>
+    />
   )
 }

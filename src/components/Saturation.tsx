@@ -19,6 +19,6 @@ export function Saturation() {
       step="1"
       value={saturation}
       onChange={handleChangeInput}
-    ></input>
+    />
   )
 }
