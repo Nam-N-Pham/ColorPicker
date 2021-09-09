@@ -10,3 +10,30 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+div {
+  display: flex;
+  align-items: center;
+}
+
+aside {
+  padding-left: 2rem;
+}
+
+.colorBox {
+  background-color: red;
+  height: 3rem;
+  width: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+}
+
+p {
+  margin-right: 1rem;
+}
